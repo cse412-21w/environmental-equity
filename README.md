@@ -4,7 +4,7 @@ Blake Hartung, Hannah Hertz, Calen Randall, Raj Talukder
 ### Contribution Statements
 Each of us created at least 2 research questions and accompanying visualizations to begin to explore our project topic. We then collaborated through Git-Hub in creating our HTML and CSS files. As we continue to refine our final deliverable, we will create more visualizations and come up witha central narrative guding our project. Our visualizations and descriptive text included in this checkpoint are definitely 'rough drafts' and will continue to be refined. We have each found several academic papers and articles to support our visualizations that will continue to be incorporated as we continue work on our project. 
 
-Blake made the first two visualizations involving the GINI index.
+Blake made the first two visualizations involving temperature change and the GINI index.
 Hannah completed the second two visualiztions about Notre Dame's GAIN index and environmental readiness vs vulnerability.
 
 ## Project Proposal Abstract

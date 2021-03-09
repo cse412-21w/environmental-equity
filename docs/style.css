@@ -9,7 +9,7 @@
  a, a:visited { text-decoration: none; color: #0a570a; }
 a:hover { text-decoration: underline; color: #f5deb3; }
  h1, h2, h3, h4, h5 {
-  color: #0d4d0d;
+  color: #003300;
   background-color: inherit;
   font-family: "Merriweather", Georgia;
   font-weight: bold;
@@ -30,7 +30,7 @@ p { margin: 0 0 10px 0; }
   background-color: #ffffff;
 }
  .title, .title h1 {
-  color: #0d4d0d;
+  color: #003300;
   font-size: 24pt;
   font-style: "Merriweather", Georgia;
   margin-bottom: 20px;
@@ -44,7 +44,7 @@ p { margin: 0 0 10px 0; }
   font-size: 12px;
 }
 .footer a {
-  color: #7d0909;
+  color: #660000;
 }
 .footer a:hover {
   color: #f5deb3;

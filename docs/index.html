@@ -133,7 +133,7 @@
        </section>
 
     <section id = "GAINindex2">
-        <p>Quick description: To dive deeper into the insights the GAIN index provides, we compared countries' Vulnerability and Readiness scores and studied the trends and outleirs. The data is broken up into four quadrants based on Climate
+        <p>To further explore the insights the GAIN index provides, we compared countries' Vulnerability and Readiness scores and studied the trends and outleirs. The data is broken up into four quadrants based on Climate
         Vulnerability and Readiness. A negative sloping trend is apparent, showcasing that the countries at the highest risk are also the least prepared. Each
         data point's size is encoded by GDP--it is very clear that smaller GDP, developing countries, are much more adversely impacted by climate change and much
         less ready. This is a stark representation of the environmental inequity present across the globe that must be addressed as we think about solutions
@@ -166,48 +166,13 @@
             vizElement.parentNode.insertBefore(scriptElement, vizElement);
         </script>
         </section>
-
-      <section id = "giniComparisons">
-          <h2>GINI Coefficient Correlations</h2>
-          <div class='tableauPlaceholder' id='viz1614292954249' style='position: relative'>
-              <noscript>
-                  <a href='#'>
-                      <img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ev&#47;Ev_equity&#47;Dashboard1&#47;1_rss.png' style='border: none' />
-                  </a>
-              </noscript>
-              <object class='tableauViz'  style='display:none;'>
-                  <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
-                  <param name='embed_code_version' value='3' />
-                  <param name='site_root' value='' />
-                  <param name='name' value='Ev_equity&#47;Dashboard1' />
-                  <param name='tabs' value='no' />
-                  <param name='toolbar' value='yes' />
-                  <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ev&#47;Ev_equity&#47;Dashboard1&#47;1.png' />
-                  <param name='animate_transition' value='yes' />
-                  <param name='display_static_image' value='yes' />
-                  <param name='display_spinner' value='yes' />
-                  <param name='display_overlay' value='yes' />
-                  <param name='display_count' value='yes' />
-                  <param name='language' value='en' />
-              </object>
-          </div>
-          <script type='text/javascript'>
-              var divElement = document.getElementById('viz1614292954249');
-              var vizElement = divElement.getElementsByTagName('object')[0];
-              if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}
-              var scriptElement = document.createElement('script');
-              scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-              vizElement.parentNode.insertBefore(scriptElement, vizElement);
-          </script>
-          <p>Quick description: The graph above represents what green indicating factors are represented differently by varying levels on inequality.
-              Using the Gini Coefficient, a 0 to 1 measure of inequality and wealth distribution in a country, I compared countries to 2 distinct
-              factors, Municipal waste generated in KG per capita, and how the people are taxed for environmental funding purposes.
-              The size of the bubble is varied based on population, which i will have mentioned in the final product, and it is also worthy to note
-              that the gini scale is reversed, representing more inequality at higher gini values, something i decided belonged at the bottom
-              of the graph to refer it as "worse".</p>
-       </section>
-      
-    <section id = "PovertyIndicies">
+<section id = "PovertyIndicies">
+                <p>Next, we began to look for relationships between GAIN scores and other metrics. Visualized here are several
+                key metrics: Vulnerability Score (ND-Gain), Readiness Score, and Poverty Level (calculated based on percent of a nation's citizens living below
+                a baseline world income level). The two concerning trends are quite obvious, yet unsurprising. Countries with a higher percentage of the
+                population below the poverty level are far more vulnerable to factors associated with climate change and are far less prepared for climate
+                change. On the left hand graph, points are also color-coded based on their readiness score, emphasizing how nations with high levels of
+                poverty are both more vulnerable and less prepared. <p>
         <div class='tableauPlaceholder' id='viz1614363933307' style='position: relative'>
             <noscript>
                 <a href='#'>
@@ -239,15 +204,16 @@
             scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
             vizElement.parentNode.insertBefore(scriptElement, vizElement);
         </script>
-            <p>Quick Description: There are a number of concerning metrics when it comes to equity and climate vulnerability. Visualized here are several
-                key metrics: Vulnerability Score (ND-Gain), Readiness Score, and Poverty Level (calculated based on percent of a nation's citizens living below
-                a baseline world income level). The two concerning trends are quite obvious, yet unsurprising. Countries with a higher percentage of the
-                population below the poverty level are far more vulnerable to factors associated with climate change and are far less prepared for climate
-                change. On the left hand graph, points are also color-coded based on their readiness score, emphasizing how nations with high levels of
-                poverty are both more vulnerable and less prepared. <p>
         </section>
 
    <section id = "FFConsumption">
+               <p>We next used the GAIN index to look at the inbalance between those who will be most impacted by climate change and those who are the
+                main consumers of fossil fuels like coal, oil, and natural gas. To vizualize this, we summed the fossil fuel consumption for individual nations
+                over the past twenty years and evaluated on a scatterplot in comparison to their climate Readiness score. Scaling by population was an option.
+                However, the reality is that the amount of fossil fuels consumed by a country is directly proportional to its contribution of additional CO2 into
+                the atmosphere, rather than a nation's fossil fuel consumption per person. The visualization underscores an uncomfortable issue: countries that are
+                less vulnerable and more prepared are also predominantly resposible for global fossil fuel usage, whereas those who have contributed less to Climate
+                Change, and additional atmopsheric CO2, are more vulnerable and elss prepared. <p>
     <div class='tableauPlaceholder' id='viz1614365505193' style='position: relative'>
         <noscript><a href='#'>
             <img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ca&#47;CarbonConsumers&#47;Sheet1&#47;1_rss.png' style='border: none' />
@@ -277,16 +243,15 @@
             scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
             vizElement.parentNode.insertBefore(scriptElement, vizElement);
        </script>
-            <p>Quick Description: One of the main issues with climate equity is the inbalance between those who will be most impacted and those who are the
-                main consumers of fossil fuels like coal, oil, and natural gas. To vizualize this, I summed the fossil fuel consumption for individual nations
-                over the past twenty years and evaluated on a scatterplot in comparison to their climate Readiness score. Scaling by population was an option.
-                However, the reality is that the amount of fossil fuels consumed by a country is directly proportional to its contribution of additional CO2 into
-                the atmosphere, rather than a nation's fossil fuel consumption per person. The visualization underscores an uncomfortable issue: countries that are
-                less vulnerable and more prepared are also predominantly resposible for global fossil fuel usage, whereas those who have contributed less to Climate
-                Change, and additional atmopsheric CO2, are more vulnerable and elss prepared. <p>
        </section>
-
-    <section id = "REgeneration">
+           <section id = "REgeneration">
+                       <p> As we acknowledge global environmental inequity, we must look at solutions. Using the same axis as the previous plot (readiness vs vulnerability), we can analyze a nation's renewable energy production for the
+            year 2019. A similar, but less proncounced trend appears. Less vulnerable and more ready nations utilize renewable energy at a higher level that less prepared
+            and more vulnerable nations. This graphic may not show the entire picture and likely should be scaled by population. Another potentially altering factor was
+            the decision to exclude hydro power from the renewables section. Though hydroelectric damns are techinically a renewable source of energy given that water is
+            renewable relative to fossil fuels. However, there are additional risk and offsetting climate issues associated with hydroelectic power (warming river temperatures
+            higher vulnerability rates for fish dependent populations). Overall, the visualization emphasizes how renewables are a critical component of strengthening
+            many vulnerable nation's climate resilience. <p>
         <div class='tableauPlaceholder' id='viz1614366496836' style='position: relative'>
         <noscript><a href='#'>
             <img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Po&#47;PovertyvsVulnerabilityReadiness&#47;Sheet4&#47;1_rss.png' style='border: none' />
@@ -316,16 +281,63 @@
             scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
             vizElement.parentNode.insertBefore(scriptElement, vizElement);
         </script>
-        <p> Quick Description: Using the same axis as the previous plot (readiness vs vulnerability), we can analyze a nation's renewable energy production for the
-            year 2019. A similar, but less proncounced trend appears. Less vulnerable and more ready nations utilize renewable energy at a higher level that less prepared
-            and more vulnerable nations. This graphic may not show the entire picture and likely should be scaled by population. Another potentially altering factor was
-            the decision to exclude hydro power from the renewables section. Though hydroelectric damns are techinically a renewable source of energy given that water is
-            renewable relative to fossil fuels. However, there are additional risk and offsetting climate issues associated with hydroelectic power (warming river temperatures
-            higher vulnerability rates for fish dependent populations). Overall, the visualization emphasizes how renewables are a critical component of strengthening
-            many vulnerable nation's climate resilience. <p>
         </section>
+          
+      <section id = "giniComparisons">
+          <h2>The Gini Coefficient</h2>
+                    <p>To confirm our findings, we looked to evaluate global enviornmental inequity by a different metric than the GAIN index.
+                        We next used the Gini Coefficent,  0 to 1 measure of inequality and wealth distribution in a country, with higher values representing a greater degree of inequality. The graph below represents what green indicating factors are represented differently by varying levels on inequality.
+                        We compared countries to 2 distinct
+              factors, Municipal waste generated in KG per capita, and how the people are taxed for environmental funding purposes.
+              The size of the bubble is varied based on population, which we will have mentioned in the final product.</p>
+          <div class='tableauPlaceholder' id='viz1614292954249' style='position: relative'>
+              <noscript>
+                  <a href='#'>
+                      <img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ev&#47;Ev_equity&#47;Dashboard1&#47;1_rss.png' style='border: none' />
+                  </a>
+              </noscript>
+              <object class='tableauViz'  style='display:none;'>
+                  <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                  <param name='embed_code_version' value='3' />
+                  <param name='site_root' value='' />
+                  <param name='name' value='Ev_equity&#47;Dashboard1' />
+                  <param name='tabs' value='no' />
+                  <param name='toolbar' value='yes' />
+                  <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ev&#47;Ev_equity&#47;Dashboard1&#47;1.png' />
+                  <param name='animate_transition' value='yes' />
+                  <param name='display_static_image' value='yes' />
+                  <param name='display_spinner' value='yes' />
+                  <param name='display_overlay' value='yes' />
+                  <param name='display_count' value='yes' />
+                  <param name='language' value='en' />
+              </object>
+          </div>
+          <script type='text/javascript'>
+              var divElement = document.getElementById('viz1614292954249');
+              var vizElement = divElement.getElementsByTagName('object')[0];
+              if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}
+              var scriptElement = document.createElement('script');
+              scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+              vizElement.parentNode.insertBefore(scriptElement, vizElement);
+          </script>
+       </section>
+      
+    
+
+   
 
         <section id = "gdp-air-pollution-corr">
+            <h2>Air Pollution and GDP</h2>
+            <p>It is usually assumed that developing countries struggle with air pollution more than developed countries since they are less likely to invest
+                    in cleaner sources of energy because these renewable resources tend to be more expensive to procure than cheap and readily available fossil fuels like coal.
+                    To check if that is the case, let us now analyze the global death rates from outdoor air pollution and the GDP per capita for each country to see
+                    if there is a strong correlation between these two factors. Here, we constructed a scatterplot to show the relationship between the two quantitative variables being
+                    measured and plotted a trendline to act as an approximation of the data points. From our trendline, we see that there is a negative trend. In addition, our R^2 value
+                    (coefficient of determination) of 0.014926. The coefficient of determination can be thought of as a percent. It gives us an idea of how many data points
+                    fall within the trend line. The higher the coefficient, the higher percentage of points the line passes through when the data points and line are plotted.
+                    In this case, only 1.49% of the points fall within our trendline which indicates a very weak to almost nonexistent relationship between a country's GDP per capita
+                    and air pollution death rates. Hence, we cannot automatically assume that developing countries are more at risk of the dangers of air pollution,
+                    but it is still an issue that they cannot invest in clean energy and must rely on cheap fossil fuels in order for their economies to grow and stabilize.</p>
             <div class='tableauPlaceholder' id='viz1614373947690' style='position: relative'>
             <noscript><a href='#'>
                 <img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;po&#47;pollution-visuals&#47;gdp-air-corr&#47;1_rss.png' style='border: none' />
@@ -354,16 +366,6 @@
                 scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
                 vizElement.parentNode.insertBefore(scriptElement, vizElement);
             </script>
-            <p>Quick Description: It is usually assumed that developing countries struggle with air pollution more than developed countries since they are less likely to invest
-                    in cleaner sources of energy because these renewable resources tend to be more expensive to procure than cheap and readily available fossil fuels like coal.
-                    To check if that is the case, let us now analyze the global death rates from outdoor air pollution and the GDP per capita for each country to see
-                    if there is a strong correlation between these two factors. Here, we constructed a scatterplot to show the relationship between the two quantitative variables being
-                    measured and plotted a trendline to act as an approximation of the data points. From our trendline, we see that there is a negative trend. In addition, our R^2 value
-                    (coefficient of determination) of 0.014926. The coefficient of determination can be thought of as a percent. It gives us an idea of how many data points
-                    fall within the trend line. The higher the coefficient, the higher percentage of points the line passes through when the data points and line are plotted.
-                    In this case, only 1.49% of the points fall within our trendline which indicates a very weak to almost nonexistent relationship between a country's GDP per capita
-                    and air pollution death rates. Hence, we cannot automatically assume that developing countries are more at risk of the dangers of air pollution,
-                    but it is still an issue that they cannot invest in clean energy and must rely on cheap fossil fuels in order for their economies to grow and stabilize.</p>
         </section>
 
 

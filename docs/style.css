@@ -3,7 +3,7 @@
   margin: 0 auto 0 auto;
   padding: 0;
   max-width: 1200px;
-  font-family: "Open Sans", Verdana;
+  font-family: "Open Sans", sans-serif, Verdana;
   font-size: 0.95em;
 }
  a, a:visited { text-decoration: none; color: #0a570a; }
@@ -11,7 +11,7 @@ a:hover { text-decoration: underline; color: #f5deb3; }
  h1, h2, h3, h4, h5 {
   color: #003300;
   background-color: inherit;
-  font-family: "Merriweather", Georgia;
+  font-family: Merriweather, serif, Georgia;
   font-weight: bold;
   padding: 0 0 5px 0;
   margin: 20px 0 0 0;
@@ -32,7 +32,7 @@ p { margin: 0 0 10px 0; }
  .title, .title h1 {
   color: #003300;
   font-size: 24pt;
-  font-style: "Merriweather", Georgia;
+  font-style: Merriweather, serif, Georgia;
   margin-bottom: 20px;
   margin-top: 5px;
 }

@@ -49,3 +49,11 @@ p { margin: 0 0 10px 0; }
 .footer a:hover {
   color: #f5deb3;
 }
+blockquote {
+  margin: 1em 1em 40px 40px;
+  font-size: 14pt;
+  font-family: "Open Sans", sans-serif, Verdana;
+  font-style: italic;
+  color: #660000;
+  border-left: 5px solid #696969;
+}

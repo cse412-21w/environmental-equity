@@ -4,9 +4,9 @@ Blake Hartung, Hannah Hertz, Calen Randall, Raj Talukder
 ### Contribution Statements
 Each of us created at least 2 research questions and accompanying visualizations to begin to explore our project topic. We then collaborated through Git-Hub in creating our HTML and CSS files. We then each found sources to support our narrative and helped to write out our findings.
 
-Blake made the visualizations and writing involving temperature change, the GINI coefficent, and green jobs by country. He also did most of the work in our CSS file.
-Hannah made the first two visualizations and writing involving Notre Dame's GAIN index (readiness vs vulnerability map and quadrant scatter plot) as well as the introduction and helping to outline the rest of the written narrative.
-Calen created the rest of the GAIN correlation visualizations to analyze poverty level correlation with readiness & vulnerability, high fossil fuel consumption rates of less vulnerable nations, and the underutilization of renewable energy sources by more vulnerable and less ready nations. 
+Blake made the visualizations and writing involving temperature change, the GINI coefficent, and green jobs by country. He also did most of the work in our CSS file and the Conclusion.
+Hannah made the visualizations and writing involving Notre Dame's GAIN index (readiness vs vulnerability map and quadrant scatter plot) as well as the Background section and helping to outline the layout and content of the page.
+Calen created the GAIN correlation visualizations to analyze poverty level correlation with readiness & vulnerability, high fossil fuel consumption rates of less vulnerable nations, and the underutilization of renewable energy sources by more vulnerable and less ready nations. 
 Raj completed the renewable energy sources, carbon dioxide producers, and pollution visuzalizations. 
 
 ## Project Proposal Abstract

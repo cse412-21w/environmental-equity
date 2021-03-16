@@ -2,11 +2,11 @@
 ## Team Members
 Blake Hartung, Hannah Hertz, Calen Randall, Raj Talukder
 ### Contribution Statements
-Each of us created at least 2 research questions and accompanying visualizations to begin to explore our project topic. We then collaborated through Git-Hub in creating our HTML and CSS files. We have each found several academic papers and articles to support our visualizations that will continue to be incorporated as we continue work on our project. 
+Each of us created at least 2 research questions and accompanying visualizations to begin to explore our project topic. We then collaborated through Git-Hub in creating our HTML and CSS files. We then each found sources to support our narrative and helped to write out our findings.
 
-Blake made the first two visualizations involving temperature change and the GINI index.
-Hannah completed the second two visualiztions about Notre Dame's GAIN index and environmental readiness vs vulnerability.
-Calen created visualizations 5-7 to analyze poverty level correlation with readiness & volnerability, high fossil fuel consumption rates of less vulnerable nations, and the underutilization of renewable energy sources by more vulnerable and less ready nations.
+Blake made the visualizations involving temperature change, the GINI coefficent, and green jobs by country.
+Hannah completed the first two visualiztions about Notre Dame's GAIN index and environmental readiness vs vulnerability.
+Calen created the rest of the GAIN correlation visualizations to analyze poverty level correlation with readiness & vulnerability, high fossil fuel consumption rates of less vulnerable nations, and the underutilization of renewable energy sources by more vulnerable and less ready nations. Raj completed the renewable energy sources, carbon dioxide producers, and pollution visuzalizations. 
 
 ## Project Proposal Abstract
 We were inspired by the compilation of datasets found at https://www.kaggle.com/seraphimstreets/environmentequity-starterpack as well as Notre Dame's Global Adaptation Initiatiave Index (https://gain.nd.edu/our-work/country-index/download-data/) to focus our final porject on evironmnetal equity. As we look at ways to address the global warming crisis, there is a struggle between scientists pushing for fast and decisive action to save the planet, and policy makers looking to balance short term needs like employment and economic growth. Green alternatives are unfortunately not always the most economical and the economic costs often disproportionately affect more vulnerable groups. Developing countries often bear more of the burden of climate change and are less equipped to adapt. Our project will aim to answer the following questions: What groups are currently impacted by the impacts of global warming, and what groups stand to be impacted most in the coming years? What climate change solutions can equitably and positvely affect all groups? How can the burden of economic impacts of these solutions be equitably distributed?
